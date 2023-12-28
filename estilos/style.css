@@ -1,0 +1,78 @@
+body{
+    background-image: linear-gradient(to bottom,#A38D67,#7C6C4F);
+    height: 100%;
+    color: white;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+h4{
+    text-align: center;
+    margin-top: 0.7em;
+    margin-bottom: 4em;
+}
+#capa{
+    width: 450px;
+}
+#abaixo-da-capa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 1.8em;
+}
+#barra-progresso{
+    background-color: #a0927b;
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+}
+#progresso-atual{
+    --progress: 0%;
+    background-color: white;
+    height: inherit;
+    width: var(--progress);
+    border-radius: inherit;
+}
+#progresscontainer{
+    cursor: pointer;
+}
+#botoes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.button-navigate{
+    font-size: 3em;
+}
+.button-biggest{
+    font-size: 4em;
+}
+.button-active{
+    color: rgb(55, 238, 144);
+}
+#nomeMusica{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.light-color{
+    color: #a0927b;
+}
+#time-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.5em;
+}
