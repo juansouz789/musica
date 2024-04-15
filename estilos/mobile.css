@@ -1,0 +1,8 @@
+@media screen and (max-width:600px) {
+    .music-container{
+        width: 100%;
+    }
+    #capa{
+        width: 100%;
+    }
+}
