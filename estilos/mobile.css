@@ -5,4 +5,22 @@
     #capa{
         width: 100%;
     }
+    #botoes{
+        width: 100%;
+    }
+    #voltar{
+        font-size: 2em;
+    }
+    #next{
+        font-size: 2em;
+    }
+    #embaralhar{
+        font-size: 1em;
+    }
+    #repeat{
+        font-size: 1em;
+    }
+    #play{
+        font-size: 2.8em;
+    }
 }
