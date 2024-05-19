@@ -31,10 +31,82 @@ const maleFantasy = {
     file: 'maleFantasy',
     liked: false
 };
+const billiebossanova = {
+    songName: "Billie Bossa Nova",
+    artist: 'Billie Eilish',
+    file: 'billiebossanova',
+    liked: false
+};
+const everybodydies = {
+    songName: "Everybody dies",
+    artist: 'Billie Eilish',
+    file: 'everybodydies',
+    liked: false
+};
+const gettingolder = {
+    songName: "Getting older",
+    artist: 'Billie Eilish',
+    file: 'gettingolder',
+    liked: false
+};
+const goldwing = {
+    songName: "Goldwing",
+    artist: 'Billie Eilish',
+    file: 'goldwing',
+    liked: false
+};
+const halleyscomet = {
+    songName: "Halley's Comet",
+    artist: 'Billie Eilish',
+    file: 'halleyscomet',
+    liked: false
+};
+const ididntchangemynumber = {
+    songName: "I didn't Change My Number",
+    artist: 'Billie Eilish',
+    file: 'ididntchangemynumber',
+    liked: false
+};
+const lostcause = {
+    songName: "Lost Cause",
+    artist: 'Billie Eilish',
+    file: 'lostcause',
+    liked: false
+};
+const myfuture = {
+    songName: "My Future",
+    artist: 'Billie Eilish',
+    file: 'myfuture',
+    liked: false
+};
+const nda = {
+    songName: "NDA",
+    artist: 'Billie Eilish',
+    file: 'nda',
+    liked: false
+};
+const overheated = {
+    songName: "Overheated",
+    artist: 'Billie Eilish',
+    file: 'overheated',
+    liked: false
+};
+const oxytocin = {
+    songName: "Oxytocin",
+    artist: 'Billie Eilish',
+    file: 'oxytocin',
+    liked: false
+};
+const thereforeiam = {
+    songName: "Therefore I Am",
+    artist: 'Billie Eilish',
+    file: 'thereforeiam',
+    liked: false
+};
 let taTocando = false;
 let isShuffle = false;
 let repeatOn = false;
-const playlist = [happierThanEver, yourPower, maleFantasy];
+const playlist = [happierThanEver, yourPower, maleFantasy, billiebossanova, everybodydies, gettingolder, goldwing, halleyscomet, ididntchangemynumber, lostcause, myfuture, nda, overheated, oxytocin, thereforeiam];
 let sortedplaylist = [...playlist];
 let index = 0;
 
@@ -64,7 +136,6 @@ function inicializacaoMusica(){
     songName.innerText = sortedplaylist[index].songName;
     bandName.innerText = sortedplaylist[index].artist;
     likeButtonRender()
-    
     
 }
 function previousSong(){
